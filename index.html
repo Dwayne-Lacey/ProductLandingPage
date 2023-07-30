@@ -13,18 +13,21 @@
                 <h1 class="header-title">Lacey Muffs</h1>
             </div>
             <nav id="nav-bar">
-                <a class="nav-link" href="#form">Buy</a>
+                <a class="nav-link" href="#buy">Buy</a>
                 <a class="nav-link" href="#about-us">About Us</a>
                 <a class="nav-link" href="">Our Muffs</a>
             </nav>
         </header>
         <main>
-            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
-                <label name="email">Freshly baked, with a homestyle touch</label>
-                <input name="email" id="email" type="email" placeholder="email@email.com"/>
-                <input name="submit" id="submit" type="submit" value="Start Order"/>
-            </form>
+            <section id="buy">
+                <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                    <label name="email">Freshly baked, with a homestyle touch</label>
+                    <input name="email" id="email" type="email" placeholder="email@email.com"/>
+                    <input name="submit" id="submit" type="submit" value="Start Order"/>
+                </form>
+            </section>
             <section id="about-us">
+                <h2 class="section-title">About Us</h2>
                 <li>
                     <h3 class="list-title">Our history</h3>
                     <p class="list-caption">Proudly serving only the highest quality muffins since 2016</p>
@@ -38,7 +41,33 @@
                     <p class="list-caption">Our Muffs are shipped within 24 hours directly to your door and kept fresh till the day you devour them</p>
                 </li>
             </section>
-            <video id="video" src=""></video>
+            <section id="our-process">
+                <h2 class="section-title">Our Process</h2>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/hFhUWYnXZik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <section id="our-muffs">
+                <h2 class="section-title">Our Muffs</h2>
+                <div class="muff">
+                    <img width="120px" class="muff-img" src="./bb-muff.jpg" />
+                    <h4>Blueberry Muff</h4>
+                    <h5>Price: $3.50</h5>
+                </div>
+                <div class="muff">
+                    <img width="120px" class="muff-img" src="./choc-chip-muff.jpg" />
+                    <h4 class="item-title">Choco Chip Muff</h4>
+                    <h5 class="item-price">Price: $3.50</h5>
+                </div>
+                <div class="muff">
+                    <img width="120px" class="muff-img" src="./choc-muff.jpg" />
+                    <h4 class="item-title">Chocolate Muff</h4>
+                    <h5 class="item-price">Price: $3.75</h5>
+                </div>
+                <div class="muff">
+                    <img width="120px" class="muff-img" src="./strawb-muff.jpg" />
+                    <h4 class="item-title">Strawb Muff</h4>
+                    <h5 class="item-price">Price: $3.75</h5>
+                </div>
+            </section>
         </main>
         <footer>
             <a href="https://www.flaticon.com/free-icons/muffin" title="muffin icons">Muffin icons created by Freepik - Flaticon</a>
