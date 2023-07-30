@@ -8,18 +8,36 @@
     </head>
     <body>
         <header id="header">
-            <img id="header-img" src="./light-mode-muff.png" />
+            <div class="logo">
+                <img id="header-img" src="./light-mode-muff.png" />
+                <h1 class="header-title">Lacey Muffs</h1>
+            </div>
             <nav id="nav-bar">
-                <a class="nav-link" href=""></a>
-                <a class="nav-link" href=""></a>
-                <a class="nav-link" href=""></a>
+                <a class="nav-link" href="#form">Buy</a>
+                <a class="nav-link" href="#about-us">About Us</a>
+                <a class="nav-link" href="">Our Muffs</a>
             </nav>
         </header>
         <main>
             <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                <label name="email">Freshly baked, with a homestyle touch</label>
                 <input name="email" id="email" type="email" placeholder="email@email.com"/>
-                <input name="submit" id="submit" type="submit" />
+                <input name="submit" id="submit" type="submit" value="Start Order"/>
             </form>
+            <section id="about-us">
+                <li>
+                    <h3 class="list-title">Our history</h3>
+                    <p class="list-caption">Proudly serving only the highest quality muffins since 2016</p>
+                </li>
+                <li>
+                    <h3 class="list-title">Where to find us</h3>
+                    <p class="list-caption">Visit a bakery near you or order from any bakery within the US</p>
+                </li>
+                <li>
+                    <h3 class="list-title">Shipping</h3>
+                    <p class="list-caption">Our Muffs are shipped within 24 hours directly to your door and kept fresh till the day you devour them</p>
+                </li>
+            </section>
             <video id="video" src=""></video>
         </main>
         <footer>
