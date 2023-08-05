@@ -9,7 +9,7 @@
 
 html {
   font-size: 62.5%;
-  background-color: rgb(253, 242, 205);
+  background-color: rgb(252, 238, 193);
 }
 
 #header {
@@ -184,4 +184,22 @@ form {
 #order {
     width: 700px;
     margin: auto;
+}
+
+.section-title {
+    margin: 3rem auto 0 auto;
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    color:rgb(90, 47, 6);
+    width: 50%;
+    text-align: center;
+    font-size: 5rem;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+    height: .3rem;
+    border-radius: 1rem;
+    background-color: rgb(90, 47, 6);
+    border: none;
 }
