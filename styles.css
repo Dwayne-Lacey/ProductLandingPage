@@ -232,3 +232,40 @@ section ul {
     margin: 0 auto 6rem auto;
     height: 400px;
 }
+
+.muffin-selection {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.muff {
+    border: 1px solid rgb(90, 47, 6);
+    border-radius: 2rem;
+    background-color: rgb(253, 242, 205);
+}
+
+.muff-img {
+    width: 16rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.item-title {
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    color:rgb(90, 47, 6);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: .6rem;
+}
+
+.item-price {
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    color:rgb(90, 47, 6);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
