@@ -77,7 +77,14 @@ main {
 }
 
 .nav-link:hover {
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%,
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.199) 0%,
     rgb(253, 242, 205) 2% 98%,
-    rgb(0, 0, 0) 100%);
+    rgba(0, 0, 0, 0.199) 100%);
+}
+
+:target::before {
+    content: "";
+    display: block;
+    height: 65px;
+    margin-top: -65px;
 }
