@@ -220,3 +220,15 @@ section ul {
     font-weight: 600;
 }
 
+#video {
+    margin: 4rem auto;
+    width: 560px;
+    height: 315px;
+    display: block;
+}
+
+#our-process {
+    width: 100%;
+    margin: 0 auto 6rem auto;
+    height: 400px;
+}
