@@ -193,6 +193,7 @@ form {
     width: 50%;
     text-align: center;
     font-size: 5rem;
+    font-weight: 100;
 }
 
 hr {
@@ -203,3 +204,19 @@ hr {
     background-color: rgb(90, 47, 6);
     border: none;
 }
+
+section ul {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+
+.list-caption {
+    margin: 4rem;
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    color:rgb(90, 47, 6);
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
