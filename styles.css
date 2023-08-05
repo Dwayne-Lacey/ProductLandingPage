@@ -123,6 +123,8 @@ main {
 
 #buy {
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 100%;
 }
 
 form h2 {
@@ -138,7 +140,7 @@ form h2 {
 }
 
 form h2:first-of-type {
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 form h2:last-of-type {
