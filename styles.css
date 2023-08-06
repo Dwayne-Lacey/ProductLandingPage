@@ -420,6 +420,12 @@ footer ul li p {
         text-align: center;
     }
 
+    main {
+        margin-top: 135px;
+        z-index: 0;
+        width: 100%;
+    }
+
     #video {
         width: 354px;
         height: 200px;
@@ -435,6 +441,16 @@ footer ul li p {
         margin-top: -35px;
     }
 
+    #buy::before {
+        content: "";
+        margin-top: 0;
+        background: linear-gradient(rgb(0,0,0),
+        rgba(0, 0, 0, 0));
+        width: 100%;
+        display: block;
+        height: 60px;
+    }
+
     #buy::after {
         content: "";
         margin-bottom: 0;
@@ -443,7 +459,7 @@ footer ul li p {
         width: 100%;
         display: block;
         position: absolute;
-        top: 255px;
+        top: 290px;
         height: 60px;
     }
 
