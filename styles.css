@@ -269,3 +269,44 @@ section ul {
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
+
+footer {
+    width: 100%;
+    background-color: rgb(131, 100, 72);
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    color: rgb(253, 242, 205);
+    font-size: 1.1rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+footer div {
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
+}
+
+footer div a {
+    margin-left: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    text-align: start;
+    margin-left: 20rem;
+}
+
+footer ul li p {
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    color: rgb(253, 242, 205);
+    font-size: 1.1rem;
+    display: block;
+    margin-top: 1rem;
+}
