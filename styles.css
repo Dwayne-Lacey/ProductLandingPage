@@ -458,8 +458,8 @@ footer ul li p {
         rgb(0, 0, 0));
         width: 100%;
         display: block;
-        position: absolute;
-        top: 290px;
+        position: relative;
+        top: -120px;
         height: 60px;
     }
 
