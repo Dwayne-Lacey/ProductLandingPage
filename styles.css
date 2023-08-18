@@ -10,7 +10,7 @@
 html {
   font-size: 62.5%;
   background-color: rgb(252, 238, 193);
-  min-width: 400px;
+  min-width: 350px;
   scroll-behavior: smooth;
 }
 
