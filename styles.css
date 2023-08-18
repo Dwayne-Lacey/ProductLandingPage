@@ -196,7 +196,7 @@ form {
 }
 
 .section-title {
-    margin: 3rem auto 0 auto;
+    margin: 5rem auto 0 auto;
     font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
     color:rgb(90, 47, 6);
     width: 50%;
@@ -471,7 +471,7 @@ footer ul li p {
     }
 
     .section-title {
-        margin: 1rem auto 0 auto;
+        margin: 3rem auto 0 auto;
         font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
         color:rgb(90, 47, 6);
         width: 50%;
